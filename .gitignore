@@ -1,0 +1,30 @@
+# Secrets & environment files
+.env
+.env.*
+!.env.example
+
+# Python
+.venv/
+venv/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+celerybeat-schedule*
+
+# Frontend / Node
+node_modules/
+dist/
+dev-dist/
+.vite/
+
+# Docker / DB data
+postgres_data/
+
+# Local tools, deploy archives & nested junk
+ngrok_bin/
+ngrok.zip
+nx_deploy.tar.gz
+/NX/
+.vscode/
+Gemini_Generated_Image_*.png
+*.log
